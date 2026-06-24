@@ -12,7 +12,7 @@ def ingest_csv(path: str) -> pd.DataFrame:
         pd.DataFrame: Loaded dataset.    
     """
 
-    if not os.patha.exists(path):
+    if not os.path.exists(path):
         raise FileNotFoundError(f"File not found: {path}")
     
     return pd.read_csv(path)
