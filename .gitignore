@@ -1,5 +1,5 @@
 /data
-/notebooks/mlruns
+/notebooks
 /notebooks/mlflow.db
 /src/utils/config.py
 /mlruns
