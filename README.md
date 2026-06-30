@@ -30,7 +30,7 @@ The main focus of this project is the pre-deployment aspects, instead of the dev
 - MLFlow was not able to load models from the folder. Solution: Access the 'artifacts' folder hidden by the IDE first, then access the model fromt there.
 - Docker building time ran out. Solution: Reduced unnecessary imports from requirements.txt
 
-## Other Steps
+## Next Steps
 - Add data validation for input using Great Expectations
 - Document training data and experimentation using DVC
 - Deploy model into a cloud service e.g. AWS EC2
