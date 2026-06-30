@@ -1,7 +1,7 @@
 /data
 /notebooks
 /notebooks/mlflow.db
-/mlartifacts
+/mlartifacts/*
 /src/utils/config.py
 /mlruns
 /src/__pycache__
