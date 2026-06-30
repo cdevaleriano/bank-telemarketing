@@ -1,5 +1,4 @@
 /data
-/notebooks
 /notebooks/mlflow.db
 /mlartifacts/*
 /src/utils/config.py

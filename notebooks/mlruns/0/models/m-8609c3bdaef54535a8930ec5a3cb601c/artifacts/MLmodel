@@ -1,0 +1,41 @@
+artifact_path: /Users/side_a/Documents/projects_personal/bank-telemarketing/notebooks/mlruns/0/models/m-8609c3bdaef54535a8930ec5a3cb601c/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.11.14
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.2.0
+is_signature_from_type_hint: false
+mlflow_version: 3.14.0
+model_id: m-8609c3bdaef54535a8930ec5a3cb601c
+model_size_bytes: 315869
+model_uuid: m-8609c3bdaef54535a8930ec5a3cb601c
+prompts: null
+run_id: 2b6b091a925b4610b4c6825b07125c8b
+signature:
+  inputs: '[{"type": "double", "name": "age", "required": true}, {"type": "double",
+    "name": "balance", "required": true}, {"type": "boolean", "name": "job_group_blue-collar",
+    "required": true}, {"type": "boolean", "name": "job_group_business-owner", "required":
+    true}, {"type": "boolean", "name": "job_group_management", "required": true},
+    {"type": "boolean", "name": "job_group_non-working", "required": true}, {"type":
+    "boolean", "name": "job_group_services", "required": true}, {"type": "boolean",
+    "name": "job_group_technician", "required": true}, {"type": "boolean", "name":
+    "job_group_unknown", "required": true}, {"type": "boolean", "name": "education_secondary",
+    "required": true}, {"type": "boolean", "name": "education_tertiary", "required":
+    true}, {"type": "boolean", "name": "education_unknown", "required": true}, {"type":
+    "boolean", "name": "default_yes", "required": true}, {"type": "boolean", "name":
+    "housing_yes", "required": true}, {"type": "boolean", "name": "loan_yes", "required":
+    true}, {"type": "boolean", "name": "contact_telephone", "required": true}, {"type":
+    "boolean", "name": "contact_unknown", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-06-30 07:56:08.895841'

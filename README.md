@@ -1,6 +1,6 @@
 # Telemarketing Targeting Classifier 
 ## Executive Summary
-A (nearly) end-to-end machine learning project for identifying targets for marketing was built. The focus of this project is not the machine learning models themselves, but rather its deployment. Models were tracked using MLFlow, an endpoint was built using Gradio with the model being served using FastAPI, and Docker images built into DockerHub.
+A (nearly) end-to-end machine learning project for identifying targets for marketing was built. The focus of this project is not the machine learning models themselves, but rather its deployment preparation. Models were tracked using MLFlow, an endpoint was built using Gradio with the model being served using FastAPI, and Docker images built into DockerHub.
 
 ## Problem Statement
 Reaching customers through calls is an effective campaign strategy for making customers subscribe to long-term deposits. However, this strategy is costly due to the external institutions invested in to execute the campaigns. To reduce costs, calling is best done to customers who are likely to subscribe in the first place. 
