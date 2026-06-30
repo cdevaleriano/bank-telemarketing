@@ -12,5 +12,10 @@ The dataset is used is modified from https://www.kaggle.com/datasets/prakharrath
 ## Data Contents
 
 
+## Roadblocks encountered
+- Test dataset column has categories not present in train dataset. Solution: Added validation for preprocessing
+- MLFlow was not able to log models. Solution: terminate processes using port 5000 and export
+- MLFlow was not able to load models from the folder. Solution: Access the 'artifacts' folder hidden by the IDE first, then access the model fromt there.
+
 ## Dataset Acknowledgement
 Created by: Paulo Cortez (Univ. Minho) and Sérgio Moro (ISCTE-IUL) @ 2012. Thanks to Berkin Kaplanoğlu for helping with the proper column descriptions.

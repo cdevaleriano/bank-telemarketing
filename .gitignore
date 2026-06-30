@@ -3,3 +3,5 @@
 /notebooks/mlflow.db
 /src/utils/config.py
 /mlruns
+/src/__pycache__
+/.vscode
